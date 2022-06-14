@@ -1,0 +1,156 @@
+
+
+/* index */
+.imagcentradas{
+    text-align: center;
+    .carouselimg{
+      width: 50%;
+    }
+  
+  }
+
+/* servicios */
+.txts{
+    font-size: 24px;
+    text-align: center;
+  }
+
+/* sobre mi */
+.imgcenter{
+  
+  width:50%;
+  height:50%;
+}
+.txtsm{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    .txtsmc{
+      text-align: center;
+    }
+      .txtsm1{
+        text-align: left;
+        animation-duration: 3s;
+        animation-name: txtsm1;
+        animation-iteration-count: unset;
+        animation-direction: normal;
+      }
+      
+      @keyframes txtsm1 {
+        from {
+          margin-left:100%;
+          width:300%
+        }
+      
+        to {
+         margin-left:0%;
+         width:100%;
+       }
+      }
+      .txtsm1{
+        text-align: left;
+        animation-duration: 3s;
+        animation-name: txtsm1;
+        animation-iteration-count: unset;
+        animation-direction: normal;
+      }
+      
+      @keyframes txtsm1 {
+        from {
+          margin-left:100%;
+          width:300%
+        }
+      
+        to {
+         margin-left:0%;
+         width:100%;
+       }
+      }
+      .txtsm2{
+        text-align: right;
+        animation-duration: 3s;
+        animation-name: txtsm2;
+        animation-iteration-count: unset;
+        animation-direction: normal;
+      }
+      
+      @keyframes txtsm2 {
+        from {
+            margin-right:300%;
+            width: 0%;
+        }
+      
+        to {
+            margin-right:0%;
+            width:100%
+       }
+      }
+      
+      .txtsm3{
+        text-align: left;
+        animation-duration: 3s;
+        animation-name: txtsm3;
+        animation-iteration-count: unset;
+        animation-direction: normal;
+      }
+      
+      @keyframes txtsm3 {
+        from {
+          margin-left:100%;
+          width:300%
+        }
+      
+        to {
+         margin-left:0%;
+         width:100%;
+       }
+      }
+    
+  }
+  
+
+/* blog */
+.txtb{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    .txtb1{
+      text-align: center;
+    }
+
+    .imgb11{
+        text-align: right;
+        .imgb1{
+          width: 35%;
+          height: 35%;
+          margin-top: -30%;
+          margin-bottom: 10%;
+      }
+    }
+    .right{
+      text-align: right;
+    }
+    .imgb12{
+      text-align: left;
+      .imgb2{
+        width: 35%;
+        height: 25%;
+        margin-top: -45%;
+    }
+    
+  }
+  
+}
+
+
+
+
+/* contacto */
+
+  
+/* all */
+.imgfondo{
+    background-image: url(/img/fondo.jpeg);
+}

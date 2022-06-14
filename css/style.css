@@ -1,0 +1,212 @@
+.fondologo {
+  background-color: #f1eee9;
+}
+
+/* index */
+.imagcentradas {
+  text-align: center;
+}
+
+.imagcentradas .carouselimg {
+  width: 50%;
+}
+
+/* servicios */
+.txts {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* sobre mi */
+.imgcenter {
+  width: 50%;
+  height: 50%;
+}
+
+.txtsm {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+.txtsm .txtsmc {
+  text-align: center;
+}
+
+.txtsm .txtsm1 {
+  text-align: left;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: txtsm1;
+          animation-name: txtsm1;
+  -webkit-animation-iteration-count: unset;
+          animation-iteration-count: unset;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+@-webkit-keyframes txtsm1 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes txtsm1 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.txtsm .txtsm1 {
+  text-align: left;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: txtsm1;
+          animation-name: txtsm1;
+  -webkit-animation-iteration-count: unset;
+          animation-iteration-count: unset;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+@keyframes txtsm1 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.txtsm .txtsm2 {
+  text-align: right;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: txtsm2;
+          animation-name: txtsm2;
+  -webkit-animation-iteration-count: unset;
+          animation-iteration-count: unset;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+@-webkit-keyframes txtsm2 {
+  from {
+    margin-right: 300%;
+    width: 0%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes txtsm2 {
+  from {
+    margin-right: 300%;
+    width: 0%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+.txtsm .txtsm3 {
+  text-align: left;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: txtsm3;
+          animation-name: txtsm3;
+  -webkit-animation-iteration-count: unset;
+          animation-iteration-count: unset;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+@-webkit-keyframes txtsm3 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes txtsm3 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* blog */
+.txtb {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+.txtb .txtb1 {
+  text-align: center;
+}
+
+.txtb .imgb11 {
+  text-align: right;
+}
+
+.txtb .imgb11 .imgb1 {
+  width: 35%;
+  height: 35%;
+  margin-top: -30%;
+  margin-bottom: 10%;
+}
+
+.txtb .right {
+  text-align: right;
+}
+
+.txtb .imgb12 {
+  text-align: left;
+}
+
+.txtb .imgb12 .imgb2 {
+  width: 35%;
+  height: 25%;
+  margin-top: -45%;
+}
+
+/* contacto */
+/* all */
+.imgfondo {
+  background-image: url(/img/fondo.jpeg);
+}
+
+.redesS {
+  width: 100px;
+}
+
+.imagcentradas {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
