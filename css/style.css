@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.imagcentradas .carouselimg {
+.carouselimg {
   width: 50%;
 }
 
@@ -15,6 +15,43 @@
 .txts {
   font-size: 24px;
   text-align: center;
+}
+
+/* blog */
+.txtb {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+.txtb .txtb1 {
+  text-align: center;
+}
+
+.txtb .imgb11 {
+  text-align: right;
+}
+
+.txtb .imgb11 .imgb1 {
+  width: 35%;
+  height: 35%;
+  margin-top: -30%;
+  margin-bottom: 10%;
+}
+
+.txtb .right {
+  text-align: right;
+}
+
+.txtb .imgb12 {
+  text-align: left;
+}
+
+.txtb .imgb12 .imgb2 {
+  width: 35%;
+  height: 25%;
+  margin-top: -45%;
 }
 
 /* sobre mi */
@@ -159,47 +196,10 @@
   }
 }
 
-/* blog */
-.txtb {
-  padding-left: 15%;
-  padding-right: 15%;
-  font-family: 'Inconsolata', monospace;
-  font-size: 20px;
-}
-
-.txtb .txtb1 {
-  text-align: center;
-}
-
-.txtb .imgb11 {
-  text-align: right;
-}
-
-.txtb .imgb11 .imgb1 {
-  width: 35%;
-  height: 35%;
-  margin-top: -30%;
-  margin-bottom: 10%;
-}
-
-.txtb .right {
-  text-align: right;
-}
-
-.txtb .imgb12 {
-  text-align: left;
-}
-
-.txtb .imgb12 .imgb2 {
-  width: 35%;
-  height: 25%;
-  margin-top: -45%;
-}
-
 /* contacto */
 /* all */
 .imgfondo {
-  background-image: url(/img/fondo.jpeg);
+  background-image: url(../img/fondo.jpeg);
 }
 
 .redesS {

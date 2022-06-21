@@ -1,19 +1,58 @@
 
+@mixin textA ($text-align){
+  text-align: $text-align;
+  
+}
 
 /* index */
 .imagcentradas{
-    text-align: center;
-    .carouselimg{
-      width: 50%;
-    }
-  
+    @include textA(center)
   }
+
+  .carouselimg{
+    width: 50%;
+   }
 
 /* servicios */
 .txts{
     font-size: 24px;
-    text-align: center;
+    @include textA(center)
   }
+
+/* blog */
+.txtb{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  .txtb1{
+    @include textA(center)
+  }
+
+  .imgb11{
+      text-align: right;
+      .imgb1{
+        width: 35%;
+        height: 35%;
+        margin-top: -30%;
+        margin-bottom: 10%;
+    }
+  }
+  .right{
+    text-align: right;
+  }
+  .imgb12{
+    text-align: left;
+    .imgb2{
+      width: 35%;
+      height: 25%;
+      margin-top: -45%;
+  }
+  
+}
+
+}
+
 
 /* sobre mi */
 .imgcenter{
@@ -109,48 +148,10 @@
     
   }
   
-
-/* blog */
-.txtb{
-    padding-left: 15%;
-    padding-right: 15%;
-    font-family: 'Inconsolata', monospace;
-    font-size: 20px;
-    .txtb1{
-      text-align: center;
-    }
-
-    .imgb11{
-        text-align: right;
-        .imgb1{
-          width: 35%;
-          height: 35%;
-          margin-top: -30%;
-          margin-bottom: 10%;
-      }
-    }
-    .right{
-      text-align: right;
-    }
-    .imgb12{
-      text-align: left;
-      .imgb2{
-        width: 35%;
-        height: 25%;
-        margin-top: -45%;
-    }
-    
-  }
-  
-}
-
-
-
-
 /* contacto */
 
   
 /* all */
 .imgfondo{
-    background-image: url(/img/fondo.jpeg);
+    background-image: url(../img/fondo.jpeg);
 }
