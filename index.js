@@ -64,10 +64,15 @@ btnEnviar.addEventListener("click", gracias);
 const formulario = document.getElementById("formulario");
 
 function validarFormulario(data){
-  const nombre7 = document.getElementById("nombre7").value;
-  const numero7 = document.getElementById("numero7").value;
-  const email7 = document.getElementById("email7").value;
-  const check7 = document.getElementById("check7").value;
+  console.log("----> Validando formulario", data);
+  const hijos = data.childen;
+  console.log("--> Que hay dentro de hijos", hijos);
+
+  for (let index = 0; index < 4; index++) {
+    const unHijo = hijos[index];
+    const valor = unHijo.childen[1].value
+    console.log("---> El valor almacenado en el imput" + unHijo.childen[0].innerText + "es" ,{valor});
+  }
 }
 console.log("Los datos son", validarFormulario);
  formulario.addEventListener("submit", (event) => {
